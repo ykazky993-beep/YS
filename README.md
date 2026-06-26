@@ -1,12 +1,19 @@
 # YS - YourShell
 
-[![Version](https://img.shields.io/github/v/release/ykazky-993/YS?color=blue&label=version)](https://github.com/ykazky-993/YS/releases)
-[![Python](https://img.shields.io/badge/Python-3.6%2B-green?logo=python)](https://www.python.org/)
-[![License](https://img.shields.io/github/license/ykazky-993/YS/license?color=red)](https://opensource.org/licenses/MIT)
-[![GitHub issues](https://img.shields.io/github/issues/ykazky-993/YS)](https://github.com/ykazky-993/YS/issues)
-[![GitHub stars](https://img.shields.io/github/stars/ykazky-993/YS?style=social)](https://github.com/ykazky-993/YS/stargazers)
+<p align="center">
+  <img src="https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge&logo=github" alt="Version">
+  <img src="https://img.shields.io/badge/License-MIT-red?style=for-the-badge&logo=opensourceinitiative" alt="License">
+  <img src="https://img.shields.io/badge/Python-3.6+-green?style=for-the-badge&logo=python" alt="Python">
+  <img src="https://img.shields.io/badge/Platform-Linux%20%7C%20Termux-lightgrey?style=for-the-badge&logo=linux" alt="Platform">
+  <a href="https://github.com/ykazky-993/YS/stargazers">
+    <img src="https://img.shields.io/github/stars/ykazky-993/YS?style=for-the-badge&logo=github&color=yellow" alt="Stars">
+  </a>
+  <a href="https://github.com/ykazky-993/YS/issues">
+    <img src="https://img.shields.io/github/issues/ykazky-993/YS?style=for-the-badge&logo=github&color=orange" alt="Issues">
+  </a>
+</p>
 
-A lightweight, custom shell built with Python using subprocess for enhanced system interaction and file management.
+> A lightweight, custom shell built with Python using `subprocess` for enhanced system interaction and file management.
 
 # 📋 Table of Contents
 About
