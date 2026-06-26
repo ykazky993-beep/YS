@@ -1,7 +1,10 @@
 # YS - YourShell
-https://img.shields.io/badge/version-1.0.0-blue.svg
-https://img.shields.io/badge/python-3.6+-green.svg
-https://img.shields.io/badge/license-MIT-red.svg
+
+[![Version](https://img.shields.io/github/v/release/ykazky-993/YS?color=blue&label=version)](https://github.com/ykazky-993/YS/releases)
+[![Python](https://img.shields.io/badge/Python-3.6%2B-green?logo=python)](https://www.python.org/)
+[![License](https://img.shields.io/github/license/ykazky-993/YS?color=red)](https://opensource.org/licenses/MIT)
+[![GitHub issues](https://img.shields.io/github/issues/ykazky-993/YS)](https://github.com/ykazky-993/YS/issues)
+[![GitHub stars](https://img.shields.io/github/stars/ykazky-993/YS?style=social)](https://github.com/ykazky-993/YS/stargazers)
 
 A lightweight, custom shell built with Python using subprocess for enhanced system interaction and file management.
 
