@@ -16,7 +16,7 @@
 > A lightweight, custom shell built with Python using `subprocess` for enhanced system interaction and file management.
 
 # 📋 Table of Contents
-About
+About[Link Text](#🚀 About)
 
 Features
 
