@@ -16,23 +16,23 @@
 > A lightweight, custom shell built with Python using `subprocess` for enhanced system interaction and file management.
 
 # 📋 Table of Contents
-About[Link Text](#🚀 About)
+[About](#🚀-About)
 
-Features
+[Features](#✨-Features)
 
-Installation
+[Installation](#📦-Installation)
 
-Usage
+[Usage](#🎯-Usage)
 
-Commands
+[Commands](#🎯-Usage)
 
-Special Features
+[Special Features](#Command-Description-Compatibility)
 
-Configuration
+[Configuration](#⚙️-Configuration)
 
-Contributing
+[Contributing](#🤝-Contributing)
 
-License
+[License](LICENSE)
 
 # 🚀 About
 YS (YourShell) is a minimalist yet powerful custom shell implementation written in Python. It leverages the subprocess module to provide a seamless command-line experience while adding unique features for package management, file operations, and system ghosting capabilities.
@@ -50,14 +50,17 @@ YS (YourShell) is a minimalist yet powerful custom shell implementation written 
 
 📦 Package Installation - Automated package installation scripts
 
-📦 Installation
-# Clone the repository
+# 📦 Installation
+Clone the repository
+
     git clone https://github.com/ykazky-993/YS.git
 
-# Navigate to directory
+Navigate to directory
+
     cd YS/yourshell
 
-# Run YourShell
+Run YourShell
+
     python3 yourshell.py
 # 🎯 Usage
 Basic Commands
