@@ -65,14 +65,17 @@ Run YourShell
 # 🎯 Usage
 Basic Commands
 bash
-# Update package lists
-fdel pkg update
+Update package lists
 
-# Upgrade installed packages
-fdel pkg upgrade
+    fdel pkg update
 
-# File management help
-fdel -h
+Upgrade installed packages
+
+    fdel pkg upgrade
+
+File management help
+
+    fdel -h
 Ghost Features
 YS comes with powerful ghosting capabilities for various environments:
 
