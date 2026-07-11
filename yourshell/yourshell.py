@@ -1091,11 +1091,13 @@ ysinfodevice-help     #show this help
 
     def cmd_Ghost(self):
         listysg = """
-1. ysGhost-x
-2. ysGhost-m
-3. ysGhost-v
-4. ysGhost-install
-5. ysGhost-how
+1. ysGhost-x         #Desktop only
+2. ysGhost-m         #All device
+3. ysGhost-v         #All device
+4. ysGhost-install   #Install all dependencies
+5. ysGhost-m-noroot  #Run yGhost-m with non root
+6. ysGhost-how       #Explaining
+7. ysdfp             #Desktop only
 """
         print(listysg)
 
@@ -1120,6 +1122,13 @@ ysinfodevice-help     #show this help
         else:
             print("Root Requied")
 
+    def cmd_Ghost_m_noroot(self):
+        w = input_password()
+        if w == password:
+            clear()
+            loading()
+            subprocess.run(["python3", "lock/ghostm.py"])
+
     def cmd_Ghost_v(self):
         e = input_password()
         if e == password:
@@ -1139,7 +1148,7 @@ ysinfodevice-help     #show this help
             print("Access denied")
 
     def cmd_Ghost_how(self):
-        print("idk bru")
+        print("some feature can't run in termux because there is a module that is not supported on the cellphone")
 
     def cmd_cover(self):
         print("Wait For Next Update!")
