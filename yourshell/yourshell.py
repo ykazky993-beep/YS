@@ -1104,7 +1104,7 @@ ysinfodevice-help     #show this help
         if q == password:
             clear()
             loading()
-            subprocess.run(["python3", "/lock/ghostx.py"])
+            subprocess.run(["python3", "lock/ghostx.py"])
         else:
             print("Access denied")
 
@@ -1114,7 +1114,7 @@ ysinfodevice-help     #show this help
             if w == password:
                 clear()
                 loading()
-                subprocess.run(["python3", "/lock/ghostm.py"])
+                subprocess.run(["python3", "lock/ghostm.py"])
             else:
                 print("Access denied")
         else:
@@ -1125,7 +1125,7 @@ ysinfodevice-help     #show this help
         if e == password:
             clear()
             loading()
-            subprocess.run(["python3", "/lock/wizard.py"])
+            subprocess.run(["python3", "lock/wizard.py"])
         else:
             print("Access denied")
 
@@ -1134,7 +1134,7 @@ ysinfodevice-help     #show this help
         if r == password:
             clear()
             loading()
-            subprocess.run(["bash", "/lock/install_all.sh"])
+            subprocess.run(["bash", "lock/install_all.sh"])
         else:
             print("Access denied")
 
