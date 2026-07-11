@@ -15,6 +15,16 @@
 
 > A lightweight, custom shell built with Python using `subprocess` for enhanced system interaction and file management.
 
+🎆YourShell Update!
+
+-add new feature & built-in
+
+-debug
+
+-new ascii
+
+-new infodevice for termux user
+
 # 📋 Table of Contents
 [About](#-🚀-About)
 
