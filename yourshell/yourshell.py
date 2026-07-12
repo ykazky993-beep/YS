@@ -1171,6 +1171,7 @@ ysinfodevice-help     #show this help
 
     def cmd_Ghost_how(self):
         print("some feature can't run in termux because there is a module that is not supported on the cellphone")
+        subprocess.run(["python3", "lock/how.py"])
 
     def cmd_cover(self):
         print("Wait For Next Update!")
