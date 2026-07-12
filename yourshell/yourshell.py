@@ -152,7 +152,7 @@ def info_droid():
     except:
         pass
 
-def loading(duration=3, width=30):
+def loading(duration=1.5, width=30):
     cols = shutil.get_terminal_size().columns
     for i in range(width + 1):
         filled = "█" * i
@@ -1106,7 +1106,11 @@ ysinfodevice-help     #show this help
         if q == password:
             clear()
             loading()
-            subprocess.run(["python3", "lock/ghostx.py"])
+            try:
+                subprocess.run(["python3", "lock/ghostx.py"])
+            except ModuleNotFoundError:
+                print("[!]Some module not found.")
+                print("[!]Activate virtual enviroment or use ysGhost-v for all device usage")
         else:
             print("Access denied")
 
@@ -1116,7 +1120,11 @@ ysinfodevice-help     #show this help
             if w == password:
                 clear()
                 loading()
-                subprocess.run(["python3", "lock/ghostm.py"])
+                try:
+                    subprocess.run(["python3", "lock/ghostm.py"])
+                except ModuleNotFoundError:
+                    print("[!]Some module not found")
+                    print("[!]Activate virtual enviroment or use ysGhost all device")
             else:
                 print("Access denied")
         else:
@@ -1127,7 +1135,11 @@ ysinfodevice-help     #show this help
         if w == password:
             clear()
             loading()
-            subprocess.run(["python3", "lock/ghostm.py"])
+            try:
+                subprocess.run(["python3", "lock/ghostm.py"])
+            except ModuleNotFoundError:
+                    print("[!]Some module not found")
+                    print("[!]Activate virtual enviroment or use ysGhost all device")
         else:
             print("Access denied")
 
@@ -1136,7 +1148,11 @@ ysinfodevice-help     #show this help
         if e == password:
             clear()
             loading()
-            subprocess.run(["python3", "lock/wizard.py"])
+            try:
+                subprocess.run(["python3", "lock/wizard.py"])
+            except ModuleNotFoundError:
+                    print("[!]Some module not found")
+                    print("[!]Activate virtual enviroment or use ysGhost all device")
         else:
             print("Access denied")
 
@@ -1145,7 +1161,11 @@ ysinfodevice-help     #show this help
         if r == password:
             clear()
             loading()
-            subprocess.run(["bash", "lock/install_all.sh"])
+            try:
+                subprocess.run(["bash", "lock/install_all.sh"])
+            except ModuleNotFoundError:
+                    print("[!]Some module not found")
+                    print("[!]Activate virtual enviroment or edit the bash file; lock/install_all.sh")
         else:
             print("Access denied")
 
