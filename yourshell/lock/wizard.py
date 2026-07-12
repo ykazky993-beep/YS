@@ -1,15 +1,10 @@
 #!/usr/bin/env python3
-# ============================================
-# HACKING TOOLS WIZARD - DARK AI VIP
-# Menu interaktif untuk semua tools
-# ============================================
 
 import os
 import sys
 import subprocess
 import platform
 
-# Warna untuk tampilan
 class Colors:
     RED = '\033[91m'
     GREEN = '\033[92m'
@@ -404,14 +399,10 @@ class HackingWizard:
 # ============================================
 
 if __name__ == "__main__":
-    # Import HackingTools dari file yang sama atau external
-    # Jika file terpisah, tambahkan: from hacking_tools import HackingTools
-    
-    # Sementara kita definisikan dummy class (akan di-replace dengan import)
     try:
         from hacking_tools import HackingTools
     except ImportError:
-        # Fallback: definisikan class kosong yang akan diisi
+        
         class HackingTools:
             pass
         
