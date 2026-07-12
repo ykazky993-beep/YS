@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-# ============================================
-# HACKING TOOLS SHORTCUT - DARK AI VIP
-# Semua tools dalam satu function panggilan
-# ============================================
+
 
 import os
 import subprocess
@@ -697,5 +694,4 @@ OTHERS:
             print(f"[!] Error: {e}")
             print(f"[!] Usage: python3 hacking_tools.py {tool_name} [args]")
     else:
-        print(f"[!] Tool '{tool_name}' tidak ditemukan atau belum di-shortcut")
-        print("[!] Ketik 'python3 hacking_tools.py' untuk lihat daftar")
+        print(f"[!] Tool '{tool_name}' not found")
