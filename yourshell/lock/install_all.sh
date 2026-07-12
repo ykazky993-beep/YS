@@ -1,12 +1,5 @@
-#!/bin/bash
-# ============================================
-# DARK AI VIP - AUTO INSTALLER
-# Install semua tools dari requirements.txt
-# ============================================
-
 set -e
 
-# Warna
 RED='\033[0;31m'
 GREEN='\033[0;32m'
 YELLOW='\033[0;33m'
@@ -19,7 +12,7 @@ echo -e "${BLUE}║  ~30min | warning some packages maybe are not found         
 echo -e "${BLUE}╚══════════════════════════════════════════════════════════════╝${NC}"
 echo ""
 
-# Cek root
+# Check root
 if [[ $EUID -ne 0 ]]; then
    echo -e "${RED}[!] Root Requied!${NC}"
    echo -e "${YELLOW}use: sudo bash install_all.sh${NC}"
@@ -192,7 +185,6 @@ fi
 # Create bash aliases
 echo -e "${GREEN}[+] Adding aliases to .bashrc...${NC}"
 echo "
-# DARK AI VIP ALIASES
 alias ht='python3 /usr/local/bin/ht'
 alias wizard='python3 /usr/local/bin/wizard'
 alias msf='msfconsole'
@@ -219,10 +211,6 @@ source ~/.bashrc
 
 # Done
 echo -e "${GREEN}╔══════════════════════════════════════════════════════════════╗${NC}"
-echo -e "${GREEN}║  ✅ INSTALLASI SELESAI!                                     ║${NC}"
-echo -e "${GREEN}║  ${YELLOW}Semua tools telah terinstall${GREEN}                         ║${NC}"
-echo -e "${GREEN}║  ${BLUE}Gunakan:${GREEN}                                        ║${NC}"
-echo -e "${GREEN}║    - ht [tool] [args]  → Jalankan tool langsung${NC}"
-echo -e "${GREEN}║    - wizard            → Menu interaktif${NC}"
-echo -e "${GREEN}║    - ghostx            → Ghost-X terminal toolkit${NC}"
+echo -e "${GREEN}║  ✅ INSTALL COMPLETE!                                     ║${NC}"
+echo -e "${GREEN}║  ${YELLOW}All tools installed${GREEN}                         ║${NC}"
 echo -e "${GREEN}╚══════════════════════════════════════════════════════════════╝${NC}"
