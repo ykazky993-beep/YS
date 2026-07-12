@@ -1097,7 +1097,7 @@ ysinfodevice-help     #show this help
 4. ysGhost-install   #Install all dependencies
 5. ysGhost-m-noroot  #Run yGhost-m with non root
 6. ysGhost-how       #Explaining
-7. ysdfp             #Desktop only
+7. ysdfp             #Desktop only (in progress update)
 """
         print(listysg)
 
@@ -1128,6 +1128,8 @@ ysinfodevice-help     #show this help
             clear()
             loading()
             subprocess.run(["python3", "lock/ghostm.py"])
+        else:
+            print("Access denied")
 
     def cmd_Ghost_v(self):
         e = input_password()
